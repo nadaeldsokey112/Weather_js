@@ -1,0 +1,126 @@
+.logo{
+object-fit: contain;
+}
+.bg-custom-dark{
+    background: #1e202b;
+}
+ .nav-item a {
+    padding: 1px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.logo-type{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+h1{
+    color: #fff;
+    font-size: inherit;
+    font-weight: inherit;
+}
+header{
+    background-image: url(../images/banner.png);
+    height: 50vh;
+    overflow: auto;
+}
+#searchButton {
+    bottom: 6px;
+    right: 20px;
+    padding: 11px 39px;
+}
+.form-control:focus {
+    background-color: #212529 !important;
+    color: #fff !important;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+/* =================================================================== */
+.forecast-table{
+    top:-130px
+}
+.forecast-container {
+    background: #323544;
+    border-radius: 10px;
+    color: #bfc1c8;
+}
+.forecast-container .forecast.today .location {
+    font-size: 1.28571em;
+    font-weight: 400;
+}
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 1.71429em;
+    color: white;
+    font-weight: 700;
+}
+.forecast-icon img{
+width: 30%;
+}
+.sunny{
+    color: #009ad8;
+}
+.content-footer{
+    background-color: #323544;
+    font-size: 14px;
+}
+.img2 img{
+    width: 40%;
+    object-fit: contain;
+}
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.forecast-container .forecast .forecast-content{
+    padding: 10px;
+}
+/* footer  */
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+input{
+   outline: none;
+   border: none;
+}
+.subscribe{
+    top:5px;
+    bottom: 5px;
+    right: 5px;
+    background: #009ad8;
+    padding: 10px 20px;
+}
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+.site-footer .social-links a:hover {
+    background: #009ad8;
+    color: white;
+}
+footer p{
+ color:  rgb(191,193,200);
+}
